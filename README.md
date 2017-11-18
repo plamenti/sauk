@@ -1,1 +1,1 @@
-This repo is for education purposes for students from UNIBIT, SAUK.
+This repository is for education purposes for students from UNIBIT, SAUK.
