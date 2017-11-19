@@ -5,9 +5,8 @@ namespace TestDemoSauk.Pages
 {
     public class RadNumericTextBoxPage
     {
-        private IWebDriver driver;
         private const string baseURL = "https://www.telerik.com/";
-        private const string PathToChromeDriver = @"D:\Drivers";
+        private IWebDriver driver;
 
         public RadNumericTextBoxPage(IWebDriver driver)
         {
