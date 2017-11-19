@@ -1,7 +1,7 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using TestDemoSauk.Pages;
 
 namespace TestDemoSauk
 {
@@ -9,25 +9,41 @@ namespace TestDemoSauk
     public class TestAjaxControls
     {
         private IWebDriver driver;
-        private string baseURL;
         private const string PathToChromeDriver = @"D:\Drivers";
+        RadNumericTextBoxPage numericTextBoxPage; 
 
         [TestInitialize]
         public void TestInit()
         {
             this.driver = new ChromeDriver(PathToChromeDriver);
-            baseURL = "https://www.telerik.com/";
+            driver.Manage().Window.Maximize();
+            numericTextBoxPage = new RadNumericTextBoxPage(driver);
         }
         
         [TestMethod]
         public void TheRadNumericTextBoxPageExistsTest()
         {
-            this.driver.Navigate().GoToUrl(baseURL);
-            driver.FindElement(By.LinkText("Demos")).Click();
-            driver.FindElement(By.LinkText("Launch ASP.NET AJAX demos")).Click();
-            driver.FindElement(By.LinkText("NumericTextBox")).Click();
+            numericTextBoxPage.Navigate();
 
             Assert.AreEqual("ASP.NET AJAX NumericTextBox Examples | RadNumericTextBox component", driver.Title); 
+        }
+
+        [TestMethod]
+        public void TheRadNumericTextBoxCalculationsTest()
+        {
+            numericTextBoxPage.Navigate();
+
+            string unitCount = "2";
+            string ammount = "30";
+            string discountAmmount = "50";
+
+            numericTextBoxPage.FillUnit(unitCount.ToString());
+            numericTextBoxPage.FillPrice(ammount);
+            numericTextBoxPage.FillDiscount(discountAmmount);
+
+            string actual = numericTextBoxPage.GetTotal();
+
+            Assert.AreEqual("$30.00", actual);
         }
 
         [TestCleanup]

@@ -55,6 +55,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Pages\RadNumericTextBoxPage.cs" />
     <Compile Include="TestAjaxControls.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
