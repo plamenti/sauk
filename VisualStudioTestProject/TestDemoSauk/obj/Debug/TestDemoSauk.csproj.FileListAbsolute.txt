@@ -1,0 +1,8 @@
+D:\Trash\Demo\sauk\VisualStudioTestProject\TestDemoSauk\bin\Debug\TestDemoSauk.dll
+D:\Trash\Demo\sauk\VisualStudioTestProject\TestDemoSauk\bin\Debug\TestDemoSauk.pdb
+D:\Trash\Demo\sauk\VisualStudioTestProject\TestDemoSauk\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Trash\Demo\sauk\VisualStudioTestProject\TestDemoSauk\bin\Debug\WebDriver.dll
+D:\Trash\Demo\sauk\VisualStudioTestProject\TestDemoSauk\bin\Debug\WebDriver.xml
+D:\Trash\Demo\sauk\VisualStudioTestProject\TestDemoSauk\obj\Debug\TestDemoSauk.csprojResolveAssemblyReference.cache
+D:\Trash\Demo\sauk\VisualStudioTestProject\TestDemoSauk\obj\Debug\TestDemoSauk.dll
+D:\Trash\Demo\sauk\VisualStudioTestProject\TestDemoSauk\obj\Debug\TestDemoSauk.pdb
