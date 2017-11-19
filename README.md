@@ -14,7 +14,9 @@ It contains some resources about Selenium IDE and WebDriver.
 
 **In order to view the test examples that are created with Selenium IDE, please navigate to SeleniumIdeTestExamples folder and open the .html files in the Selenium IDE.**
 
-**In order to view the test examples that are created with VisualStudio, please navigate to VisualStudioTestProject folder, open TestDemoSauk folder and load TestDemoSauk.sln. IMPORTANT: Change the path to the drivers (Chrome, FF or IE) to your one. Please consider, that for the purpose of the demo the Page Object Pattern is not full implemented - the map class is missing**
+**In order to view the test examples that are created with VisualStudio, please navigate to VisualStudioTestProject folder, open TestDemoSauk folder and load TestDemoSauk.sln.**
+**IMPORTANT: Change the path to the drivers (Chrome, FF or IE) to your one.**
+**Please consider, that for the purpose of the demo the Page Object Pattern is not full implemented - the map class is missing.**
 
-**Please consider that .gitignore file is not added**
+**Please consider that .gitignore file is not added.**
 
