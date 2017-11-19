@@ -10,6 +10,7 @@ It contains some resources about Selenium IDE and WebDriver.
     - Protractor - http://www.protractortest.org
 1. How to install - https://www.guru99.com/install-selenuim-ide.html
 1. Selenium IDE commands  http://www.seleniumhq.org/docs/02_selenium_ide.jsp#selenium-commands-selenese
+1. Getting Started with WebDriver C# in 10 Minutes - https://automatetheplanet.com/getting-started-webdriver
 
 **In order to view the test examples, please navigate to SeleniumIdeTestExamples folder and open the .html files in the Selenium IDE.**
 
